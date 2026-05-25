@@ -34,7 +34,7 @@ h1{
 body {
             font-family: Courier New, Courier, monospace;
             max-width: 800px;
-            margin: 50px auto;
+            margin: 0px auto;
             padding: 20px;
             background-color: #107AB0;
             overflow-x: hidden;
@@ -42,12 +42,10 @@ body {
         }
         h1 {
             color: #FFF;
-            text-align: left;
             position: relative;
             z-index: 10;
         a {
             color: #FFF;
-            text-align: left;
             position: relative;
             z-index: 10;
         }
@@ -57,12 +55,10 @@ body {
             href-align: left;
             position: relative;
             z-index: 10;
-          text-align: left;
         }
         p {
             color: #CCC;
             line-height: 1.6;
-            text-align: left;
             position: relative;
             z-index: 10;
         }
