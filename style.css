@@ -78,6 +78,12 @@ body {
     background-attachment: fixed;    
 }
 
+.insta-right {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+
   
   
   
