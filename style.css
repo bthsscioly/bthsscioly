@@ -77,19 +77,35 @@ body {
     background-attachment: fixed;    
 }
 
-.insta-outside {
-  position: absolute;
-  right: 100px;
-  top: 50px;
-  width: 550px;  
-  z-index: 9999;
+@media (min-width: 900px) {
+  .insta-outside {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 550px;        
+    max-width: 550px;
+    z-index: 9999;
+  }
 }
+
+@media (max-width: 899px) {
+  .insta-outside {
+    position: relative;  
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;   
+    padding: 0;
+  }
+}
+
 
 .insta-outside iframe,
 .insta-outside blockquote {
-  width: 100% !important;  
+  width: 100% !important;
   max-width: 100% !important;
+  min-width: 0 !important;   
 }
+
 
 
 
