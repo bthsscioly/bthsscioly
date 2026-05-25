@@ -80,7 +80,7 @@ body {
 
 .insta-outside {
   position: fixed;
-  right: 20px;
+  right: 100px;
   top: 75px;
   width: 550px;  
   z-index: 9999;
