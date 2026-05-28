@@ -104,7 +104,6 @@ body {
   max-width: 100% !important;
   min-width: 0 !important;   
 }
- @media (max-width: 900px) {
   .squished-block {
     width: 400px;                  
     padding: 15px;
@@ -113,4 +112,3 @@ body {
     word-wrap: break-word;         
     line-height: 2.5;              
   }
- }
